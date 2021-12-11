@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       backgroundImage: {
@@ -23,8 +22,8 @@ module.exports = {
       red: '#FB3E3E'
     }
   },
-  variants: {
-    extend: {},
-  },
   plugins: [],
 }
+
+
+
